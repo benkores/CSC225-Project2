@@ -1,0 +1,73 @@
+
+
+.hero {
+    background-image:url(../imgs/hero.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.min-vh-75 {
+    min-height:75vh !important;
+}
+
+.heading-1 {
+    font-size:40px;
+    font-weight:bold;
+}
+
+p, .card-body, label {
+    font-weight:600;
+}
+
+.w-65 {
+    width:65%;
+}
+
+.caption-text {
+    font-size:25px;
+}
+
+.right {
+    float:right;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 20vw;
+    object-fit: contain;
+    padding-top: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+    .navbar-collapse {
+      background: black;
+      text-align: center;
+    }
+  }
+
+  a, a:hover {
+    text-decoration: none;
+    color:white;
+ }
+
+ .img-fluid {
+    height: 500px;
+    width: 500px;
+    object-fit: contain;
+ }
+
+ .cart-img {
+    height: 200px;
+    width: 200px;
+    object-fit: contain;
+ }
+
+ .float-right {
+    float:right;
+ }
+
+ .no-bullet {
+    list-style-type: none;
+    padding:0;
+    margin:0;
+ }
